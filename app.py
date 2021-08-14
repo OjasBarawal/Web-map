@@ -9,7 +9,7 @@ longitude = list(data['LON'])
 name = list(data['NAME'])
 elevation = list(data['ELEV'])
 
-map = folium.Map(location=[20, 78], zoom_start=5, tiles='Stamen Terrain')
+map = folium.Map(location=[35.58, -99.09], zoom_start=5, tiles='Stamen Terrain')
 
 
 def color_ranger(elevation):
